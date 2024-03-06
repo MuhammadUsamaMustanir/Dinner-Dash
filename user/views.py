@@ -10,5 +10,5 @@ def get_all_users(request, first_name):
     return render(request, 'users.html', context)
 
 
-def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+def user_index(request):
+    return HttpResponse("Hello, world. You're at the user index.")
